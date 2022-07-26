@@ -9,29 +9,28 @@
 </head>
 <body>
     <div class="calculator">
-        <div id="screen">result</div>
-        <div class="numbers">
-            <button id="7">7</button>
-            <button id="8">8</button>
-            <button id="9">9</button>
-            <button id >X</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button id="cero">0</button>
-            <button>.</button>
-            <button>=</button>
+        <div class="calculator-screen"></div>
+        <div class="calculator-keys">
+            <button data-operation="clear"></button>
+            <button data-operation="clear">C</button>
+            <button data-math="divide">÷</button>
+            <button data-math="multiply">x</button>
+            <button data-math="subtract">-</button>
+            <button data-number="7">7</button>
+            <button data-number="8">8</button>
+            <button data-number="9">9</button>
+            <button data-math="add">+</button>
+            <button data-number="4">4</button>
+            <button data-number="5">5</button>
+            <button data-number="6">6</button>
+            <button data-number="1">1</button>
+            <button data-number="2">2</button>
+            <button data-number="3">3</button>
+            <button data-operation="equals">=</button>
+            <button data-number="0">0</button>
+            <button data-number=".">.</button>
         </div>
-        <div class="operators">
-            <button>/</button>
-            <button>C</button>
         </div>
-    </div>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
