@@ -29,7 +29,7 @@ const getOperation = (element, operation) => {
     screen.textContent = element.textContent;
 };
 
-export const runOperation = operation => {
+const runOperation = operation => {
     const getResult = () => {
         const number2 = Number(screen.textContent);
         switch (typeOperation) {
@@ -52,4 +52,4 @@ export const runOperation = operation => {
     operation === 'clear' ? (screen.textContent = '0') : getResult();
 };
 
-export default calculator;
+// export default calculator;
